@@ -16,7 +16,7 @@ header {
   position: relative;
 }
 .icon-input-btn input[type='tel'] {
-  padding-left: 2em;
+  padding-left: 2.4em;
   margin: 0 auto;
   border: 1px solid #999;
   text-align: left;
@@ -25,7 +25,7 @@ header {
 
 .icon-input-btn .fa {
   position: absolute;
-  left: 9vw;
+  left: 13vw;
   top: 28%;
   opacity: 80%;
 }
@@ -45,7 +45,7 @@ header {
   text-decoration: none;
   width: 80%;
   margin: 0 auto;
-  min-width: 17rem;
+  min-width: 15rem;
 }
 #mobily,
 #stc,
@@ -97,7 +97,7 @@ header {
   opacity: 0.9;
 }
 #validationCustom08 {
-  width: 35vh;
+  width: 32vh;
 }
 #alert {
   background-color: #34477c;
