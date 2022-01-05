@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+
+    <header>
+    <nav class="navbar navbar-light bg-light">
+      <div class="row m-1">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.png" alt="" width="40" height="32" class="d-inline-block align-text-top">
+          SportsFans
+        </a>
+      </div>
+      <div class="dropdown text-end m-2">
+        <button
+          class="btn dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          English
+        </button>
+        <ul class="dropdown-menu bg-primary" aria-labelledby="dropdownMenuButton1">
+          <li>
+            <a class="dropdown-item text-white" id="english" href="#" area-current="true"
+              >English</a
+            >
+          </li>
+          <li><a class="dropdown-item text-white" id="arabic" href="#">العربية</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+    <div class="alert alert-light m-0" id="alert" role="alert">
+      Welcome to Next Stage for Sports News.
+      <button type="button" class="btn-close" id="close" aria-label="Close"></button>
+    </div>
+    
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col">
+          <div id="video">
+          <video class="bg-video m-5" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/video/Sports_Promo.mp4" type="video/mp4" /></video>
+        </div>
+        </div>
+        <div class="col text-center" id="col2">
+          <form>
+            <h2 id="subscribe_now">Subscribe Now</h2>
+            <h5 id="encourage">By subscribing, you will be with one of the first people who getting the latest news about several sports! </h5>
+            <div class="m-5">
+              <label id="code" for="inputMobile" class="form-label"
+                >Enter The Code</label
+              >
+              <div class="icon-input-btn text-white">
+                <input type="tel"name ="Code" class="btn btn " pattern=".{12}" oninput="check(this)" required
+              placeholder="">
+            </div>    
+    
+            </div>
+            <div class = "d-grid gap-2 px-5 mt-4">
+                <a href="otp.html" type="submit" id="subscribe" class="btn btn-primary mb-2" >
+                    Subscribe </a>
+                </div>
+              </form>
+          <p id="agree">Clicking the button means you are okay with <p><a href=""><span id="terms">Terms & Conditions</span></a></p></p> <br/>
+          <p id="para2">It is a paid subscription, and the renewal will be automatically for Zain subscribers at a cost of 7 (inclusive of value added tax) SAR, weekly for STC and Mobily at a cost of 5.75 (inclusive of VAT) SAR, there is no obligation, you can cancel at any time via the link or via send
+            U3 to 705711 for Zain,
+            Blank message to 800444 for STC or Blank message to 901555 for Mobily. </p>
+      </div>
+    </div>
+
+    <div class="slider">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/bicycles.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/horse.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/football.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/adventure.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/american-football.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/running.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/swimming.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/women-basketball.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/pexels-andrea-piacquadio-3764538.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="card text-center text-white" id="card">
+      <div class="card-header" id="developer">
+        A Full-Stack Software Developer.
+      </div>
+      <div class="card-body">
+        <p class="card-text text-dark" id="copyright">&copy; Abdelqader - Next Stage</p>
+        <a id="linkedin" href="https://www.linkedin.com/in/abdelkader-al-omari/" class="btn btn-primary">LinkedIn</a>
+        <a id="github" href="https://github.com/abdelqader-alomari" class="btn btn-primary">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script2.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,108 @@
+.container-fluid {
+  background-color: #132147;
+}
+header {
+  background-color: whitesmoke;
+}
+#dropdownMenuButton1 {
+  background-color: #34477c;
+  color: #fff;
+}
+#english:hover,
+#arabic:hover {
+  background-color: #132147;
+}
+.icon-input-btn {
+  position: relative;
+}
+.icon-input-btn input[type='tel'] {
+  padding-left: 2em;
+  margin: 0px;
+  border: 1px solid #999;
+  text-align: left;
+  width: 20rem;
+}
+
+.icon-input-btn .fa {
+  position: absolute;
+  left: 9vw;
+  top: 28%;
+  opacity: 80%;
+}
+.btn-close {
+  position: relative;
+  float: right;
+}
+.slider {
+  width: 70%;
+  margin: 1.5vw 10vw 4vw 13vw;
+}
+#carouselExampleSlidesOnly {
+  display: flex;
+  justify-content: center;
+}
+#continue {
+  text-decoration: none;
+}
+#mobily,
+#stc,
+#zain,
+#linkedin,
+#github {
+  background-color: #34477c;
+  color: #fff;
+  border: none;
+}
+#continue,
+#subscribe {
+  background-color: #82c245;
+  font-weight: bold;
+}
+#para,
+#agree,
+#para2 {
+  color: white;
+  opacity: 0.8;
+}
+#para,
+#para2 {
+  margin: 0px 30px;
+}
+#video {
+  display: flex;
+  justify-content: center;
+}
+.bg-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  min-width: 360px;
+}
+#subscribe_now {
+  color: white;
+  margin-top: 5vh;
+}
+#encourage {
+  color: white;
+  opacity: 90%;
+  margin: 0 50px;
+}
+#mobile,
+#code {
+  color: white;
+  opacity: 0.9;
+}
+#alert {
+  background-color: #34477c;
+  color: white;
+}
+.card-body {
+  background-color: rgba(236, 236, 236, 0.74);
+}
+#card {
+  background-color: #34477c;
+}
+#radio {
+  margin-top: 0px;
+}
