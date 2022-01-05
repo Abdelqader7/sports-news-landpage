@@ -17,10 +17,10 @@ header {
 }
 .icon-input-btn input[type='tel'] {
   padding-left: 2em;
-  margin: 0px;
+  margin: 0 auto;
   border: 1px solid #999;
   text-align: left;
-  width: 20rem;
+  min-width: 10rem;
 }
 
 .icon-input-btn .fa {
@@ -43,6 +43,9 @@ header {
 }
 #continue {
   text-decoration: none;
+  width: 80%;
+  margin: 0 auto;
+  min-width: 17rem;
 }
 #mobily,
 #stc,
@@ -77,7 +80,7 @@ header {
   justify-content: center;
   align-items: center;
   width: 40vw;
-  min-width: 300px;
+  min-width: 320px;
 }
 #subscribe_now {
   color: white;
@@ -92,6 +95,9 @@ header {
 #code {
   color: white;
   opacity: 0.9;
+}
+#validationCustom08 {
+  width: 35vh;
 }
 #alert {
   background-color: #34477c;
